@@ -65,24 +65,8 @@ function brigadeiro2(padrao, tempo) {
     } else if (padrao > 24 && tempo > 24)
         return brigadeiro = 'kabumm';
 }
-let acesso = pipoca;
-switch (acesso) {
-    case pipoca:
-        console.log('prato encontrado');
-        break;
-    case macarrao:
-        console.log('prato encontrado');
-        break
-    case carne:
-        console.log('prato encontrado');
-        break;
-    case feijao:
-        console.log('prato encontrado');
-        break;
-    case brigadeiro:
-        console.log('prato encontrado');
-        break;
-    default: 'Prato não encontrado'
 
-}console.log(pipoca);
 
+
+let num = pipoca ( 10 ,15)
+console.log(num);
